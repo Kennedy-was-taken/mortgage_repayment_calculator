@@ -1,0 +1,32 @@
+
+/* tablet / laptop specification  */
+@media only screen and (min-width: 768px) {
+    
+    img{
+        width: 8em;
+    }
+    
+    h1{
+        font-size: 1.3em;
+    }
+    
+    .paragraph{
+        font-size: 0.8em;
+    }
+}
+
+/* laptop / larger screen specification  */
+@media only screen and (min-width: 1200px) {
+    
+    img{
+        width: 9.5em;
+    }
+    
+    h1{
+        font-size: 1.4em;
+    }
+    
+    .paragraph{
+        font-size: 1.05em;
+    }
+}
