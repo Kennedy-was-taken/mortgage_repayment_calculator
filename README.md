@@ -1,63 +1,96 @@
-<<<<<<< HEAD
+
 # MortgageRepaymentCalculator
+# Frontend Mentor - Mortgage Repayment Calculator
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+This is a solution to the [Mortgage repayment calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development server
 
-To start a local development server, run:
+## Table of contents
 
-```bash
-ng serve
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  <!-- - [What I learned](#what-i-learned) -->
+  - [Built with](#built-with)
+  - [Author](#author)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Overview
 
-## Code scaffolding
+### The challenge
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Users should be able to:
 
-```bash
-ng generate component component-name
-```
+- Input mortgage information and see monthly repayment and total repayment amounts after submitting the form
+- See form validation messages if any field is incomplete
+- Complete the form only using their keyboard
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+### Screenshot
+  
+   <!-- ![Full screen](./src/assets/content/preview.jpg) -->
 
-## Building
+### Links
 
-To build the project run:
+- Solution URL: [GitHub code solution URL](https://github.com/Kennedy-was-taken/mortgage_repayment_calculator.git)
+<!-- - Live site Url : [Vercel QR code app](https://product-list-with-cart-main-azure.vercel.app/) -->
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+#### Mobile perspective:
+  - Mobile empty
 
-## Running unit tests
+  ![mobile-home-page](./src/assets/content/mobile-design-empty.jpg)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+  - Mobile completed
 
-```bash
-ng test
-```
+  ![mobile-design-selected](./src/assets/content/mobile-design-completed.jpg)
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+#### Desktop perspective:
+  - Desktop empty
 
-```bash
-ng e2e
-```
+  ![desktop-home-page](./src/assets/content/desktop-design-empty.jpg)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+  - Desktop completed
 
-## Additional Resources
+  ![desktop-design-selected](./src/assets/content/desktop-design-completed.jpg)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# mortgage_repayment_calculator
->>>>>>> origin/main
+
+<!-- ### What I learned
+
+  1. Creating a Click Outside Directive in Angular:
+
+      - Implemented a click outside directive within Angular to facilitate the closing of modal windows, tooltips, or dropdown menus.
+      - Linked the directive to the HTML tag to ensure that clicking outside the designated area triggers the closing action.
+      - Ensured that clicking within the designated area keeps the component open.
+
+  2. Utilizing '@angular/animations' for Basic Animations:
+
+      - Learned to integrate '@angular/animations' to animate sidebar actions in TypeScript.
+      - Manipulated the opacity of a layer using triggers, states, transitions, and animations.
+      - Implemented animations for opening and closing actions, enhancing user experience and interface interactivity.
+
+  3. CSS Transformations and Animations:
+
+      - Refreshed understanding of CSS transformations for manipulating the positioning of HTML elements at various keyframes.
+      - Employed CSS animations to define animation properties, enabling keyframes to animate according to specified parameters.
+      - By mastering these techniques, I've enhanced my ability to create dynamic and interactive user interfaces within Angular applications. -->
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- @media
+<!-- - @angular/animations
+- @KeyFrame -->
+- Angular
+
+## Author
+
+- Github Profile: [Kennedy-was-taken](https://github.com/Kennedy-was-taken)
+<!-- - Frontend Mentor : [@Kennedy-was-taken](https://www.frontendmentor.io/profile/Kennedy-was-taken) -->
