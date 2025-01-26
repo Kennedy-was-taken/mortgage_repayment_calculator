@@ -1,5 +1,8 @@
+![Process tab](https://img.shields.io/badge/status-in_progress-F14A00)
+<!-- ![updates](https://img.shields.io/badge/future_updates-yes-4DA1A9) -->
+<!-- ![Process tab](https://img.shields.io/badge/status-Complete-5CB338) -->
+<!-- ![updates](https://img.shields.io/badge/future_updates-no-8D0B41) -->
 
-# MortgageRepaymentCalculator
 # Frontend Mentor - Mortgage Repayment Calculator
 
 This is a solution to the [Mortgage repayment calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -11,10 +14,10 @@ This is a solution to the [Mortgage repayment calculator challenge on Frontend M
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+<!-- - [My process](#my-process) -->
   <!-- - [What I learned](#what-i-learned) -->
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Built with](#built-with)
+- [Author](#author)
 
 ## Overview
 
@@ -32,11 +35,6 @@ Users should be able to:
 ### Screenshot
   
    <!-- ![Full screen](./src/assets/content/preview.jpg) -->
-
-### Links
-
-- Solution URL: [GitHub code solution URL](https://github.com/Kennedy-was-taken/mortgage_repayment_calculator.git)
-<!-- - Live site Url : [Vercel QR code app](https://product-list-with-cart-main-azure.vercel.app/) -->
 
 
 #### Mobile perspective:
@@ -90,7 +88,13 @@ Users should be able to:
 - @KeyFrame -->
 - Angular
 
+### Links
+
+- Solution URL: [GitHub code solution URL](https://github.com/Kennedy-was-taken/mortgage_repayment_calculator.git)
+<!-- - Live site Url : [Vercel QR code app](https://mortgage-repayment-calculator-teal.vercel.app/) -->
+
+
 ## Author
 
-- Github Profile: [Kennedy-was-taken](https://github.com/Kennedy-was-taken)
-<!-- - Frontend Mentor : [@Kennedy-was-taken](https://www.frontendmentor.io/profile/Kennedy-was-taken) -->
+- Github Profile: [@Kennedy-was-taken](https://github.com/Kennedy-was-taken)
+- Frontend Mentor : [@Kennedy-was-taken](https://www.frontendmentor.io/profile/Kennedy-was-taken)

@@ -1,0 +1,33 @@
+
+.parent_container{
+    background-color: var(--White);
+    width: 100%;
+    height: 100%;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    height: inherit;
+}
+
+.grid1, .grid2, .grid2_container{
+    display: flex;
+}
+
+.grid1, .grid2_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid1{
+    padding: 2.13em 1.25em 1.68em 1.25em;
+}
+
+.grid2_container{
+    background-color: var(--Slate_900);
+    padding: 0 2.18em 0 2.18em;
+    width: 100%;
+}
+
