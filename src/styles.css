@@ -14,6 +14,11 @@
     --Slate_500: hsl(200, 26%, 54%);
     --Slate_700: hsl(200, 24%, 40%);
     --Slate_900: hsl(202, 55%, 16%);
+
+
+    /* media widths */
+    --tablets: 768px;
+    --desktops: 1200px;
 }
 
 
@@ -22,7 +27,25 @@ html, body{
     height: 100%;
 }
 
+
 body{
     margin: 0;
     background-color: var(--Slate_100);
+}
+
+/* tablet / laptop specification  */
+@media only screen and (min-width: 768px) {
+    
+    body{
+        margin: 0 auto;
+        padding: 12.06em 12.38em 5.75em 12.06em;
+        width: calc(100% - 24.76em);
+        height: calc(100% - 24.12em);
+    }
+
+}
+
+/* laptop / larger screen specification  */
+@media only screen and (min-width: var(--desktops)) {
+    
 }

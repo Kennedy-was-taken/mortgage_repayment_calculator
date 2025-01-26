@@ -1,5 +1,6 @@
 
 .parent_container{
+    display: flex;
     background-color: var(--White);
     width: 100%;
     height: 100%;
@@ -9,6 +10,7 @@
     display: grid;
     grid-template-rows: 60% 40%;
     height: inherit;
+    width: inherit;
 }
 
 .grid1, .grid2, .grid2_container{
