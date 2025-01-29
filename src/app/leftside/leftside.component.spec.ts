@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MobileComponent } from './mobile.component';
+import { LeftsideComponent } from './leftside.component';
 
-describe('MobileComponent', () => {
-  let component: MobileComponent;
-  let fixture: ComponentFixture<MobileComponent>;
+describe('LeftsideComponent', () => {
+  let component: LeftsideComponent;
+  let fixture: ComponentFixture<LeftsideComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MobileComponent]
+      imports: [LeftsideComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MobileComponent);
+    fixture = TestBed.createComponent(LeftsideComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -2,31 +2,31 @@
 /* tablet / laptop specification  */
 @media only screen and (min-width: 768px) {
     
-    img{
-        width: 8em;
+    /* img{
+        width: 13.39vw;
     }
     
     h1{
-        font-size: 1.3em;
+        font-size: 1.6vw;
     }
     
     .paragraph{
-        font-size: 0.8em;
-    }
+        font-size: 1vw;
+    } */
 }
 
 /* laptop / larger screen specification  */
 @media only screen and (min-width: 1200px) {
     
-    img{
+    /* img{
         width: 9.5em;
-    }
+    } */
     
-    h1{
-        font-size: 1.4em;
+    /* h1{
+        font-size: 1.3vw;
     }
     
     .paragraph{
-        font-size: 1.05em;
-    }
+        font-size: 1.4vw;
+    } */
 }

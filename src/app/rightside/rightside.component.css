@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'PlusJakartaSans';
     src: url('../assets/fonts/PlusJakartaSans-VariableFont_wght.ttf');
@@ -11,24 +12,24 @@
 .container{
     display: flex;
     flex-direction: column;
-    row-gap: 0.2em;
+    row-gap: 0.9vw;
     justify-content: center;
     align-items: center;
     color: var(--White);
 }
 
 img{
-    width: 10em;
+    width: 38.8vw;
 }
 
 h1{
     margin: 0;
-    font-size: 1.5em;
+    font-size: 5.8vw;
     font-family: 'PlusJakartaSans';
 }
 
 .paragraph{
-    font-size: 1em;
+    font-size: 4vw;
     font-family: 'PlusJakartaSans';
     color: var(--Slate_300);
     text-align: center;

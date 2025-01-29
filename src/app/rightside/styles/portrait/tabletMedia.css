@@ -1,0 +1,21 @@
+
+/* tablet / smaller laptop specification  */
+@media only screen and (min-width: 768px) and (orientation: portrait){
+    
+    .container{
+        row-gap: 0.5vw;
+    }
+
+    img{
+        width: 28vw;
+    }
+    
+    h1{
+        font-size: 3.8vw;
+    }
+    
+    .paragraph{
+        margin-top: 1vw;
+        margin-bottom: 0;
+    }
+}

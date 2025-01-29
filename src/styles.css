@@ -36,11 +36,15 @@ body{
 /* tablet / laptop specification  */
 @media only screen and (min-width: 768px) {
     
+    body {
+        
+        /* padding: 12.06em 12.38em 5.75em 12.06em; */
+        /* width: calc(100% - 24.76em);
+        height: calc(100% - 24.12em); */
+    }
+
     body{
         margin: 0 auto;
-        padding: 12.06em 12.38em 5.75em 12.06em;
-        width: calc(100% - 24.76em);
-        height: calc(100% - 24.12em);
     }
 
 }

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MobileComponent } from "./mobile/mobile.component";
+import { RightsideComponent } from "./rightside/rightside.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MobileComponent],
+  imports: [RouterOutlet, RightsideComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css', './styles/media.css']
 })
