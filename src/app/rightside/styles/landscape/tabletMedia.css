@@ -1,4 +1,15 @@
 
-@media only screen and (min-width: 768px) and (orientation: landscape){
+@media only screen and (min-width: 950px) and (orientation: landscape){
     
+    img{
+        width: 12.5vw;
+    }
+
+    h1{
+        font-size: 1.7vw;
+    }
+    
+    .paragraph{
+        font-size: 1.1vw;
+    } 
 }

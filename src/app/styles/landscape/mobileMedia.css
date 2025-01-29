@@ -1,4 +1,13 @@
 
-@media only screen and (max-width: 768px) and (orientation: landscape){
+@media only screen and (orientation: landscape) and (max-width: 915px){
+    
+    .parent_container{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .grid_container{
+        grid-template-rows: auto auto;
+    }
     
 }

@@ -1,4 +1,22 @@
 
-@media only screen and (min-width: 768px) and (orientation: landscape){
-    
+@media only screen and (min-width: 950px) and (orientation: landscape){
+
+    .parent_container{
+        border-radius: 2em;
+        height: 57.8vh;
+        width: 70.8vw;
+    }
+
+    .grid_container{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: unset;
+    }
+
+    .grid2_container{
+        border-top-right-radius: 2em;
+        border-bottom-right-radius: 2em;
+        border-bottom-left-radius: 4.56em;
+        background-color: var(--Slate_900);
+        padding: 0 2.18em 0 2.18em;
+    }
 }

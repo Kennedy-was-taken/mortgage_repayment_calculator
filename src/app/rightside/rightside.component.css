@@ -33,4 +33,5 @@ h1{
     font-family: 'PlusJakartaSans';
     color: var(--Slate_300);
     text-align: center;
+    margin-top: 0;
 }

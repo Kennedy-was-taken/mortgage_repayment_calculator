@@ -6,7 +6,7 @@ import { RightsideComponent } from "./rightside/rightside.component";
   selector: 'app-root',
   imports: [RouterOutlet, RightsideComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', './styles/media.css']
+  styleUrls: ['./app.component.css', './styles/landscape/mobileMedia.css', './styles/landscape/tabletMedia.css']
 })
 export class AppComponent {
   title = 'Mortgage Repayment Calculator';

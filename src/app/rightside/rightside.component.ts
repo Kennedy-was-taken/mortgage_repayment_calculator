@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-rightside',
   imports: [],
   templateUrl: './rightside.component.html',
-  styleUrls: ['./rightside.component.css', './styles/portrait/tabletMedia.css']
+  styleUrls: ['./rightside.component.css', './styles/landscape/mobileMedia.css', './styles/portrait/tabletMedia.css', './styles/landscape/tabletMedia.css', './styles/landscape/desktopMedia.css']
 })
 export class RightsideComponent {
 
