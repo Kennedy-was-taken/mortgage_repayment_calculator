@@ -11,12 +11,33 @@
     }
     
     .header{
-        font-size: 3.8vw;
+        font-size: 3.5vw;
     }
     
     .paragraph{
-        margin-top: 1vw;
+        font-size: 2.8vw;
         margin-bottom: 0;
+    }
+
+    .costContainer{
+        row-gap: 2vw;
+        border-radius: 0.7vw;
+        background-color: #0e2431;
+        border-top: 0.5vw solid var(--Lime);
+        width: calc(100% - 4vw);
+        padding: 1.2vw 2vw;
+    }
+    
+    .costContainer .paragraph:nth-child(2){
+        color: var(--Lime);
+    }
+
+    .costContainer .paragraph:nth-child(2), .costContainer .paragraph:nth-child(5){
+        font-size: 3.2vw;
+    }     
+    
+    .costContainer .paragraph:nth-child(1), .costContainer .paragraph:nth-child(4){
+        font-size: 2.5vw;
     }
 
 }

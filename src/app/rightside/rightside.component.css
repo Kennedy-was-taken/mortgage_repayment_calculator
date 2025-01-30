@@ -50,7 +50,7 @@
 .costContainer{
     display: flex;
     flex-direction: column;
-    row-gap: 5vw;
+    row-gap: 3vw;
     border-radius: 2vw;
     background-color: #0e2431;
     border-top: 1vw solid var(--Lime);
@@ -60,6 +60,10 @@
 
 .costContainer .paragraph:nth-child(2){
     color: var(--Lime);
+}
+
+.costContainer .paragraph:nth-child(2), .costContainer .paragraph:nth-child(5){
+   font-size: 4.2vw;
 }
 
 .costContainer .paragraph:nth-child(1), .costContainer .paragraph:nth-child(4){

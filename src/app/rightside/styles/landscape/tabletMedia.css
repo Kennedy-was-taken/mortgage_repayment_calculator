@@ -1,19 +1,40 @@
 
 @media only screen and (min-width: 950px) and (orientation: landscape){
     
+    .container, .subcontainer{
+        row-gap: 1.2vw;
+    }
+
     .image{
         width: 12.5vw;
     }
 
     .header{
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
     
     .paragraph{
-        font-size: 1.1vw;
+        font-size: 1.3vw;
     } 
+    
+    .costContainer{
+        row-gap: 1.2vw;
+        border-radius: 0.7vw;
+        background-color: #0e2431;
+        border-top: 0.3vw solid var(--Lime);
+        width: calc(100% - 4vw);
+        padding: 1.2vw 2vw;
+    }
+    
+    .costContainer .paragraph:nth-child(2){
+        color: var(--Lime);
+    }
 
-    .header.active{
-        color: blue;
+    .costContainer .paragraph:nth-child(2), .costContainer .paragraph:nth-child(5){
+        font-size: 2vw;
+    } 
+    
+    .costContainer .paragraph:nth-child(1), .costContainer .paragraph:nth-child(4){
+        font-size: 1.2vw;
     }
 }
