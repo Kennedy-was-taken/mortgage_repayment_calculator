@@ -9,6 +9,6 @@ import { NgIf } from '@angular/common';
 })
 export class RightsideComponent {
 
-  firstScreen = false;
-  secondScreen = true;
+  firstScreen = true;
+  secondScreen = false;
 }

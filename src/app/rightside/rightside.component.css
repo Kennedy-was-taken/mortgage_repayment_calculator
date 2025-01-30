@@ -29,10 +29,6 @@
     font-family: 'PlusJakartaSans';
 }
 
-.subcontainer:nth-child(1) {
-    align-items: flex-start;
-}
-
 
 .paragraph{
     font-size: 4vw;
@@ -41,11 +37,6 @@
     text-align: center;
     margin: 0;
 }
-
-.subcontainer:nth-child(1) .paragraph{
-    text-align: left;
-}
-
 
 .costContainer{
     display: flex;
