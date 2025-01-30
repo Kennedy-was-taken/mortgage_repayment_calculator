@@ -31,5 +31,6 @@
     background-color: var(--Slate_900);
     padding: 2.18em 2.18em 2.18em 2.18em;
     width: 100%;
+    height: fit-content;
 }
 

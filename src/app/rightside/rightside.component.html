@@ -1,15 +1,46 @@
 
 <section class="container">
 
-    <img src="./images/illustration-empty.svg" alt="bill image"/>
+    <div class="subcontainer" *ngIf="firstScreen">
 
-    <h1 class="header">
-        Results shown here
-    </h1>
+        <!-- Block : false -->
+        <img src="./images/illustration-empty.svg" alt="bill image"/>
 
-    <p class="paragraph">
-        Complete the form and click “calculate repayments” to see what 
-  your monthly repayments would be.
-    </p>
+        <h1 class="header">
+            Results shown here
+        </h1>
+
+        <p class="paragraph">
+            Complete the form and click “calculate repayments” to see what 
+    your monthly repayments would be.
+        </p>
+
+    </div>
+
+    <div class="subcontainer" *ngIf="secondScreen">
+
+        <h1 class="header">
+            Your results
+        </h1>
+
+        <p class="paragraph">
+            Your results are shown below based on the information you provided. 
+            To adjust the results, edit the form and click “calculate repayments” again.
+
+        </p>
+
+        <div class="costContainer">
+
+            <p class="paragraph">Your monthly repayments</p>
+            <p class="paragraph">R</p>
+            <div style="height: 1px; background-color: var(--Slate_300);"></div>
+            <p class="paragraph">Total you'll repay over the term</p>
+            <p class="paragraph">R</p>
+        </div>
+
+    </div>
+    
+
+    
 </section>
 

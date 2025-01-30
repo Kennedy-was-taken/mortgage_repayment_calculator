@@ -9,29 +9,61 @@
     src: url('../assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf');
 }
 
-.container{
+.container, .subcontainer{
     display: flex;
     flex-direction: column;
-    row-gap: 0.9vw;
+    row-gap: 3vw;
     justify-content: center;
     align-items: center;
     color: var(--White);
 }
 
-img{
+.image{
+    display: flex;
     width: 38.8vw;
 }
 
-h1{
+.header{
     margin: 0;
     font-size: 5.8vw;
     font-family: 'PlusJakartaSans';
 }
+
+.subcontainer:nth-child(1) {
+    align-items: flex-start;
+}
+
 
 .paragraph{
     font-size: 4vw;
     font-family: 'PlusJakartaSans';
     color: var(--Slate_300);
     text-align: center;
-    margin-top: 0;
+    margin: 0;
 }
+
+.subcontainer:nth-child(1) .paragraph{
+    text-align: left;
+}
+
+
+.costContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vw;
+    border-radius: 2vw;
+    background-color: #0e2431;
+    border-top: 1vw solid var(--Lime);
+    width: calc(100% - 10vw);
+    padding: 4vw 5vw;
+}
+
+.costContainer .paragraph:nth-child(2){
+    color: var(--Lime);
+}
+
+.costContainer .paragraph:nth-child(1), .costContainer .paragraph:nth-child(4){
+    font-size: 3.5vw;
+}
+
+
