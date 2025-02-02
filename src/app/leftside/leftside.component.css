@@ -66,6 +66,17 @@ section{
     font-family: "PlusJakartaSans";
 }
 
+.sideContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftside, .rightside{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5vw;
+}
+
 .symbal{
     display: flex;
     height: 100%;
@@ -106,32 +117,34 @@ input[type="number"]{
     border-bottom-right-radius: 1vw;
 }
 
-.inputContainer:nth-child(4) .symbal{
+.leftside .inputContainer .symbal{
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
     width: 20%;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
 }
 
-.inputContainer:nth-child(4) .textbox{
+.leftside .inputContainer .textbox{
     width: calc(100% - 20%);
     border-top-left-radius: 1vw;
     border-bottom-left-radius: 1vw;
 }
 
-.inputContainer:nth-child(6) .symbal{
+.rightside .inputContainer .symbal{
     border-width: 0;
     border-top-left-radius: 1vw;
     border-bottom-left-radius: 1vw;
     width: 17%;
 }
 
-.inputContainer:nth-child(6) .textbox{
+.rightside .inputContainer .textbox{
     width: calc(100% - 17%);
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
 }
 
-.inputContainer:nth-child(8), .inputContainer:nth-child(9){
+.inputContainer:nth-child(5), .inputContainer:nth-child(6){
     flex-direction: row;
     padding: 1vh 0;
     column-gap: 3vw;
@@ -146,7 +159,7 @@ input[type="number"]{
     margin-left: 5vw;
 }
 
-.inputContainer:nth-child(8) .headerText, .inputContainer:nth-child(9) .headerText{
+.inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
     margin-top: 0;
     color: var(--Slate_900);
     font-size: 4vw;

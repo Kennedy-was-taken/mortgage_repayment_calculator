@@ -24,6 +24,11 @@
 
     .inputContainer{
         height: 18vh;
+        align-items: center;
+    }
+    
+    .leftside, .rightside{
+        row-gap: 2.5vw;
     }
 
     .symbal{
@@ -42,23 +47,23 @@
         width: calc(100% - 10%);
     }
 
-    .inputContainer:nth-child(4) .symbal{
+    .leftside .inputContainer .symbal{
         width: 17%;
     }
     
-    .inputContainer:nth-child(4) .textbox{
+    .leftside .inputContainer .textbox{
         width: calc(100% - 17%);
     }
 
-    .inputContainer:nth-child(6) .symbal{
+    .rightside .inputContainer .symbal{
         width: 14%;
     }
     
-    .inputContainer:nth-child(6) .textbox{
+    .rightside .inputContainer .textbox{
         width: calc(100% - 14%);
     }
 
-    .inputContainer:nth-child(8), .inputContainer:nth-child(9){
+    .inputContainer:nth-child(5), .inputContainer:nth-child(6){
         padding: 2vh 0;
         column-gap: 1vw;
         height: 13vh;
@@ -71,7 +76,7 @@
         margin-left: 2vw;
     }
 
-    .inputContainer:nth-child(8) .headerText, .inputContainer:nth-child(9) .headerText{
+    .inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
         font-size: 3vw;
     }
 

@@ -1,4 +1,118 @@
 
-@media only screen and (min-width: 768px) and (orientation: landscape){
+@media only screen and (min-width: 950px) and (orientation: landscape){
     
+    section{
+        display: flex;
+        row-gap: 1.5vh;
+    }
+
+    .headerContainer{
+        display: flex;
+        flex-direction: row;
+        row-gap: unset;
+    }
+
+    .bold{
+        font-size: 1.5vw;
+    }
+
+    .btnClear{
+        font-size: .8vw;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    /* comeback */
+    .formContainer{
+        row-gap: 0.8vw;
+    }
+
+    .headerText{
+        font-size: 1vw;
+        margin-top: 1vw;
+    }
+
+    .inputContainer{
+        width: 100%;
+        height: 5vh;
+        border-radius: 0.4vw;
+        font-family: "PlusJakartaSans";
+    }
+
+    .leftside, .rightside{
+        row-gap: 1vw;
+    }
+
+    .symbal{
+        font-size: 1vw;
+        font-size: 1.3vw;
+    }
+
+    .textbox{
+        font-size: 1.3vw;
+        padding: 0 1vw;
+    }
+
+    .inputContainer:nth-child(2) .symbal{
+        width: 12%;
+        border-top-left-radius: 0.4vw;
+        border-bottom-left-radius: 0.4vw;
+    }
+    
+    .inputContainer:nth-child(2) .textbox{
+        width: calc(100% - 12%);
+    }
+    
+    .leftside .inputContainer .symbal{
+        width: 19%;
+        border-top-right-radius: 0.4vw;
+        border-bottom-right-radius: 0.4vw;
+    }
+    
+    .leftside .inputContainer .textbox{
+        width: calc(100% - 19%);
+    }
+    
+    .rightside .inputContainer .symbal{
+        width: 16%;
+        border-top-left-radius: 0.4vw;
+        border-bottom-left-radius: 0.4vw;
+    }
+    
+    .rightside .inputContainer .textbox{
+        width: calc(100% - 16%);
+    }
+
+    .inputContainer:nth-child(5), .inputContainer:nth-child(6){
+        padding: 1vh 0;
+        column-gap: 0.7vw;
+        height: 2vw;
+    
+    }
+    
+    .inputStyle{
+        height: 1.5vh;
+        width: 1.5vw;
+        margin-left: 1vw;
+    }
+
+    .inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+    
+    .btnSubmit{
+        padding: 1.3vh 0;
+        font-size: 1vw;
+        border-top-left-radius: 6vw;
+        border-bottom-left-radius: 6vw;
+        border-top-right-radius: 6vw;
+        border-bottom-right-radius: 6vw;
+        margin-top: 1vh;
+    }
+
 }

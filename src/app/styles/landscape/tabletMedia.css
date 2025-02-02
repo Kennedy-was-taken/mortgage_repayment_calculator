@@ -2,8 +2,8 @@
 @media only screen and (min-width: 950px) and (orientation: landscape){
 
     .parent_container{
-        border-radius: 2em;
-        height: 57.8vh;
+        border-radius: 2vw;
+        height: fit-content;
         width: 70.8vw;
     }
 
@@ -12,10 +12,14 @@
         grid-template-rows: unset;
     }
 
+    .grid1{
+        padding: 2em 2.3em 1.68em 2.3em;
+    }
+
     .grid2_container{
-        border-top-right-radius: 2em;
-        border-bottom-right-radius: 2em;
-        border-bottom-left-radius: 4.56em;
+        border-top-right-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        border-bottom-left-radius: 5vw;
         background-color: var(--Slate_900);
         padding: 0 2.18em 0 2.18em;
     }

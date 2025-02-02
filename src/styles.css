@@ -37,6 +37,10 @@ body{
 /* tablet / laptop specification  */
 @media only screen and (min-width: 950px) and (orientation: landscape) {
     
+    html, body{
+        height: 100%;
+    }
+    
     body {
         display: flex;
         justify-content: center;

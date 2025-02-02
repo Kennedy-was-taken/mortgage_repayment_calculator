@@ -1,4 +1,90 @@
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
     
+    .headerContainer{
+        row-gap: 0.8vh;
+    }
+
+    .bold{
+        font-size: 4.3vw;
+    }
+
+    .btnClear{
+        font-size: 2.5vw;
+    }
+
+    .formContainer{
+        row-gap: 2vh;
+    }
+
+    .headerText{
+        font-size: 3vw;
+        margin-top: 1vh;
+    }
+
+    .inputContainer{
+        height: 6vh;
+    }
+    
+    .leftside, .rightside{
+        row-gap: 3vw;
+    }
+
+    .symbal{
+        font-size: 3.5vw;
+    }
+
+    .textbox{
+        font-size: 3.5vw;
+    }
+
+    .inputContainer:nth-child(2) .symbal{
+        width: 10%;
+    }
+
+    .inputContainer:nth-child(2) .textbox{
+        width: calc(100% - 10%);
+    }
+
+    .inputContainer:nth-child(4) .symbal{
+        width: 17%;
+    }
+    
+    .inputContainer:nth-child(4) .textbox{
+        width: calc(100% - 17%);
+    }
+
+    .inputContainer:nth-child(6) .symbal{
+        width: 14%;
+    }
+    
+    .inputContainer:nth-child(6) .textbox{
+        width: calc(100% - 14%);
+    }
+
+    .inputContainer:nth-child(5), .inputContainer:nth-child(6){
+        padding: 1vh 0;
+        column-gap: 3vw;
+        height: 4vh;
+    }
+
+    .inputStyle{
+        height: 3vh;
+        width: 3vw;
+        margin-left: 4vw;
+    }
+
+    .inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
+        font-size: 3.3vw;
+    }
+
+    .btnSubmit{
+        padding: 1.5vh 0;
+        font-size: 3.5vw;
+        border-top-left-radius: 6vw;
+        border-bottom-left-radius: 6vw;
+        border-top-right-radius: 6vw;
+        border-bottom-right-radius: 6vw;
+        margin-top: 1.5vh;
+    }
 }

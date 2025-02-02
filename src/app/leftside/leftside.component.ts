@@ -6,7 +6,7 @@ import { Form } from './interfaces/form';
   selector: 'app-leftside',
   imports: [ ReactiveFormsModule],
   templateUrl: './leftside.component.html',
-  styleUrls: ['./leftside.component.css', './styles/landscape/mobileMedia.css']
+  styleUrls: ['./leftside.component.css', './styles/landscape/mobileMedia.css', './styles/portrait/tabletMedia.css', './styles/landscape/tabletMedia.css']
 })
 export class LeftsideComponent implements OnInit{
   
