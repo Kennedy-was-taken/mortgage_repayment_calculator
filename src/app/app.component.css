@@ -8,7 +8,7 @@
 
 .grid_container{
     display: grid;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 1fr 40%;
     height: inherit;
     width: inherit;
 }
@@ -19,8 +19,6 @@
 
 .grid1, .grid2_container{
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .grid1{
@@ -29,6 +27,8 @@
 
 .grid2_container{
     background-color: var(--Slate_900);
+    justify-content: center;
+    align-items: center;
     padding: 2.18em 2.18em 2.18em 2.18em;
     width: 100%;
 }

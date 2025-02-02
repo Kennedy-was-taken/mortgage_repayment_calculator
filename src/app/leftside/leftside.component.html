@@ -1,1 +1,54 @@
-<p>leftside works!</p>
+<section>
+
+    <div class="headerContainer">
+        <p class="bold">Mortgage Calculator</p>
+        <button class="btnClear" type="reset" (click)="btnClick()">Clear All</button>
+    </div>
+
+    <form class="formContainer" [formGroup]="formData" (ngSubmit)="onClickSubmit()">
+
+        <!-- Top -->
+        <p class="headerText">Mortgage Amount</p>
+
+        <div class="inputContainer">
+            <div class="symbal">&pound;</div>
+            <input type="number" id="mortgageAmount" placeholder="10.00" class="textbox"/>
+        </div>
+
+        <!-- middle -->
+        <p class="headerText">Mortgage Term</p>
+
+        <div class="inputContainer">
+            <input type="number" id="mortgageTerm" placeholder="5" class="textbox"/>
+            <div class="symbal">years</div>
+        </div>
+
+        <!-- bottom -->
+        <p class="headerText">Interest Rate</p>
+
+        <div class="inputContainer">
+            <div class="symbal">%</div>
+            <input type="number" id="interestRate" placeholder="3" class="textbox"/>
+        </div>
+
+        <!-- radio button -->
+        <p class="headerText">Mortgage Type</p>
+        <div class="inputContainer">
+            <input class="inputStyle" name="radioOptions" type="radio" value="Replayment"/>
+            <label class="headerText" for="radioOptions">Replayment</label>
+        </div>
+
+        <div class="inputContainer">
+            <input class="inputStyle" name="radioOptions" type="radio" value="Interest"/>
+            <label class="headerText" for="radioOptions">Interest Only</label>
+        </div>
+
+        <button class="btnSubmit" type="submit">
+            Calculate Repayments
+        </button>
+
+    </form>
+
+    
+
+</section>
