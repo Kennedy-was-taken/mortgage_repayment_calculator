@@ -1,6 +1,14 @@
 
 @media only screen and (max-width: 915px) and (orientation: landscape){
     
+    .alert-danger{
+        font-size: 1.5vw;
+    }
+    
+    .first{
+        margin-top: -3vw;
+    }
+
     .headerContainer{
         row-gap: 2vh;
     }
@@ -63,7 +71,7 @@
         width: calc(100% - 14%);
     }
 
-    .inputContainer:nth-child(5), .inputContainer:nth-child(6){
+    .btnRadio{
         padding: 2vh 0;
         column-gap: 1vw;
         height: 13vh;
@@ -76,7 +84,7 @@
         margin-left: 2vw;
     }
 
-    .inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
+    .top .headerText, .bottom .headerText{
         font-size: 3vw;
     }
 

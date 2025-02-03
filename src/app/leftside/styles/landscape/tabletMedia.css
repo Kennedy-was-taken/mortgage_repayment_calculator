@@ -1,6 +1,15 @@
 
 @media only screen and (min-width: 950px) and (orientation: landscape){
+   
+
+    .alert-danger{
+        font-size: 0.6vw;
+    }
     
+    .first{
+        margin-top: -1vw;
+    }
+
     section{
         display: flex;
         row-gap: 1.5vh;
@@ -26,6 +35,10 @@
         cursor: pointer;
     }
 
+    label:hover, span:hover{
+        cursor: pointer;
+    }
+
     /* comeback */
     .formContainer{
         row-gap: 0.8vw;
@@ -43,17 +56,22 @@
         font-family: "PlusJakartaSans";
     }
 
+    .sideContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+    }
+
     .leftside, .rightside{
         row-gap: 1vw;
     }
 
     .symbal{
         font-size: 1vw;
-        font-size: 1.3vw;
     }
 
     .textbox{
-        font-size: 1.3vw;
+        font-size: 1vw;
         padding: 0 1vw;
     }
 
@@ -64,30 +82,38 @@
     }
     
     .inputContainer:nth-child(2) .textbox{
+        border-top-right-radius: 0.4vw;
+        border-bottom-right-radius: 0.4vw;
         width: calc(100% - 12%);
     }
     
     .leftside .inputContainer .symbal{
-        width: 19%;
+        width: 30%;
         border-top-right-radius: 0.4vw;
         border-bottom-right-radius: 0.4vw;
     }
     
     .leftside .inputContainer .textbox{
-        width: calc(100% - 19%);
+        border-top-left-radius: 0.4vw;
+        border-bottom-left-radius: 0.4vw;
+        width: calc(100% - 30%);
     }
     
     .rightside .inputContainer .symbal{
-        width: 16%;
-        border-top-left-radius: 0.4vw;
-        border-bottom-left-radius: 0.4vw;
+        width: 22%;
+        border-top-right-radius: 0.4vw;
+        border-bottom-right-radius: 0.4vw;
+        border-top-left-radius: unset;
+        border-bottom-left-radius: unset;
     }
     
     .rightside .inputContainer .textbox{
-        width: calc(100% - 16%);
+        width: calc(100% - 22%);
+        border-top-left-radius: 0.4vw;
+        border-bottom-left-radius: 0.4vw;
     }
 
-    .inputContainer:nth-child(5), .inputContainer:nth-child(6){
+    .btnRadio{
         padding: 1vh 0;
         column-gap: 0.7vw;
         height: 2vw;
@@ -100,7 +126,7 @@
         margin-left: 1vw;
     }
 
-    .inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
+    .top .headerText, .bottom .headerText{
         font-size: 1.2vw;
         font-weight: 700;
     }

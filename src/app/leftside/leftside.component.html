@@ -10,9 +10,15 @@
         <!-- Top -->
         <p class="headerText">Mortgage Amount</p>
 
-        <div class="inputContainer">
-            <div class="symbal">&pound;</div>
-            <input type="number" id="mortgageAmount" placeholder="10.00" class="textbox"/>
+        <div class="inputContainer" [ngClass]="{'has-error': formData.controls['mortgageAmount'].invalid && formData.controls['mortgageAmount'].touched}">
+            <div class="symbal" [ngClass]="{'has-error': formData.controls['mortgageAmount'].invalid && formData.controls['mortgageAmount'].touched}">&pound;</div>
+            <input type="number" id="mortgageAmount" formControlName="mortgageAmount" placeholder="10.00" class="textbox"/>
+        </div>
+        <div *ngIf="formData?.get('mortgageAmount')?.invalid && formData?.get('mortgageAmount')?.touched"></div>
+        <div *ngIf="formData.controls['mortgageAmount'].invalid && formData.controls['mortgageAmount'].touched" class="alert alert-danger first">
+            <div *ngIf="formData.controls['mortgageAmount'].errors?.['required']">
+                Mortgage Amount is required.
+          </div>
         </div>
 
         <div class="sideContainer">
@@ -21,9 +27,14 @@
                 <!-- middle -->
                 <p class="headerText">Mortgage Term</p>
 
-                <div class="inputContainer">
-                    <input type="number" id="mortgageTerm" placeholder="5" class="textbox"/>
-                    <div class="symbal">years</div>
+                <div class="inputContainer" [ngClass]="{'has-error': formData.controls['mortgageTerm'].invalid && formData.controls['mortgageTerm'].touched}">
+                    <input type="number" id="mortgageTerm" formControlName="mortgageTerm" placeholder="5" class="textbox"/>
+                    <div class="symbal" [ngClass]="{'has-error': formData.controls['mortgageTerm'].invalid && formData.controls['mortgageTerm'].touched}">years</div>
+                </div>
+                <div *ngIf="formData.controls['mortgageTerm'].invalid && formData.controls['mortgageTerm'].touched" class="alert alert-danger">
+                    <div *ngIf="formData.controls['mortgageTerm'].errors?.['required']">
+                        Mortgage Amount is required.
+                  </div>
                 </div>
             </div>
 
@@ -31,9 +42,14 @@
                 <!-- bottom -->
                 <p class="headerText">Interest Rate</p>
 
-                <div class="inputContainer">
-                    <div class="symbal">%</div>
-                    <input type="number" id="interestRate" placeholder="3" class="textbox"/>
+                <div class="inputContainer" [ngClass]="{'has-error': formData.controls['interestRate'].invalid && formData.controls['interestRate'].touched}">
+                    <input type="number" id="interestRate" formControlName="interestRate" placeholder="3" class="textbox"/>
+                    <div class="symbal" [ngClass]="{'has-error': formData.controls['interestRate'].invalid && formData.controls['interestRate'].touched}">%</div>
+                </div>
+                <div *ngIf="formData.controls['interestRate'].invalid && formData.controls['interestRate'].touched" class="alert alert-danger">
+                    <div *ngIf="formData.controls['interestRate'].errors?.['required']">
+                        Mortgage Amount is required.
+                  </div>
                 </div>
             </div>
 
@@ -41,15 +57,15 @@
 
         <!-- radio button -->
         <p class="headerText">Mortgage Type</p>
-        <div class="inputContainer">
-            <input class="inputStyle" name="radioOptions" type="radio" value="Replayment"/>
-            <label class="headerText" for="radioOptions">Replayment</label>
-        </div>
+        <label class="inputContainer btnRadio top" >
+            <input class="inputStyle" name="radioOptions" checked type="radio" value="Replayment"/>
+            <span class="headerText" for="Replayment">Replayment</span>
+        </label>
 
-        <div class="inputContainer">
+        <label class="inputContainer btnRadio bottom">
             <input class="inputStyle" name="radioOptions" type="radio" value="Interest"/>
-            <label class="headerText" for="radioOptions">Interest Only</label>
-        </div>
+            <span class="headerText" for="Interest">Interest Only</span>
+        </label>
 
         <button class="btnSubmit" type="submit">
             Calculate Repayments

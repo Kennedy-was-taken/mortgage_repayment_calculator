@@ -8,9 +8,18 @@
     src: url('../assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf');
 }
 
-p{
+p, .alert-danger{
     font-family: "PlusJakartaSans";
     margin: 0;
+}
+
+.alert-danger{
+    font-size: 2vw;
+    color: red;
+}
+
+.first{
+    margin-top: -3vw;
 }
 
 section{
@@ -95,6 +104,7 @@ input[type="number"]{
     appearance: textfield; 
     font-weight: 600;
     color: var(--Slate_900);
+    height: 100%;
 }
 
 .textbox{
@@ -129,22 +139,28 @@ input[type="number"]{
     width: calc(100% - 20%);
     border-top-left-radius: 1vw;
     border-bottom-left-radius: 1vw;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .rightside .inputContainer .symbal{
     border-width: 0;
-    border-top-left-radius: 1vw;
-    border-bottom-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
     width: 17%;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
 }
 
 .rightside .inputContainer .textbox{
     width: calc(100% - 17%);
-    border-top-right-radius: 1vw;
-    border-bottom-right-radius: 1vw;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
 }
 
-.inputContainer:nth-child(5), .inputContainer:nth-child(6){
+.btnRadio{
     flex-direction: row;
     padding: 1vh 0;
     column-gap: 3vw;
@@ -159,11 +175,22 @@ input[type="number"]{
     margin-left: 5vw;
 }
 
-.inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
+.top .headerText, .bottom .headerText{
     margin-top: 0;
     color: var(--Slate_900);
     font-size: 4vw;
     font-weight: 700;
+}
+
+input[type="radio"]:checked{
+    
+    accent-color: var(--Lime)
+    
+}
+
+label:has(input[type="radio"]:checked){
+    border-color: var(--Lime);
+    background-color: #fafae0;
 }
 
 .btnSubmit{
@@ -184,4 +211,32 @@ input[type="number"]{
     margin-top: 2vh;
 }
 
+.inputContainer:hover > input{
+    cursor: pointer;
+}
+
+.inputContainer:has(input:focus), .inputContainer:has(input:focus) .symbal, input:focus
+{
+    border-color: yellow;
+    color: black;
+}
+
+.inputContainer:has(input:focus) .symbal
+{
+    background-color: yellow;
+}
+
+.inputContainer.has-error { /* Style the label */
+    border-color: red;
+}
+
+.symbal.has-error { /* Style the label */
+    border-color: red;
+    background-color: red;
+    color: var(--White);
+}
+
+input:focus{
+    outline: 1px solid yellow
+}
 

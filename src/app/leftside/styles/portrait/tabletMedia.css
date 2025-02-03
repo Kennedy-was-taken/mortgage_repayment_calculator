@@ -1,6 +1,10 @@
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
     
+    .alert-danger{
+        font-size: 2vw;
+    }
+
     .headerContainer{
         row-gap: 0.8vh;
     }
@@ -62,7 +66,7 @@
         width: calc(100% - 14%);
     }
 
-    .inputContainer:nth-child(5), .inputContainer:nth-child(6){
+    .btnRadio{
         padding: 1vh 0;
         column-gap: 3vw;
         height: 4vh;
@@ -74,7 +78,7 @@
         margin-left: 4vw;
     }
 
-    .inputContainer:nth-child(5) .headerText, .inputContainer:nth-child(6) .headerText{
+    .top .headerText, .bottom .headerText{
         font-size: 3.3vw;
     }
 

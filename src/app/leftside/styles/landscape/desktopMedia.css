@@ -1,4 +1,51 @@
 
 @media only screen and (min-width: 1200px) and (orientation: landscape){
+
+    .alert-danger{
+        font-size: 0.7vw;
+    }
     
+    .first{
+        margin-top: -0.7vw;
+    }
+
+    section{
+        row-gap: 1vh;
+    }
+   
+    .formContainer{
+        row-gap: 0.5vw;
+    }
+
+    .inputContainer{
+        height: 5.5vh;
+    }
+
+    .leftside, .rightside{
+        row-gap: 0.5vw;
+    }
+
+    .symbal{
+        font-size: 1.2vw;
+    }
+
+    .textbox{
+        font-size: 1.2vw;
+    }
+
+    .inputStyle{
+        height: 2vh;
+        width: 2vw;
+    }
+
+    .btnSubmit{
+        padding: 1.5vh 0;
+        font-size: 1.3vw;
+        border-top-left-radius: 6vw;
+        border-bottom-left-radius: 6vw;
+        border-top-right-radius: 6vw;
+        border-bottom-right-radius: 6vw;
+        margin-top: 1.8vh;
+    }
+
 }
