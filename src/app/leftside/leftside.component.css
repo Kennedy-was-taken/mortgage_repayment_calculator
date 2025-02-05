@@ -193,8 +193,13 @@ label:has(input[type="radio"]:checked){
     background-color: #fafae0;
 }
 
+img{
+    width: 5vw;
+}
+
 .btnSubmit{
     display: flex;
+    column-gap: 3vw;
     flex-direction: row;
     justify-content: center;
     align-items: center;

@@ -88,6 +88,10 @@
         font-size: 3vw;
     }
 
+    img{
+        width: 4vw;
+    }    
+
     .btnSubmit{
         padding: 3vh 0;
         font-size: 3.5vw;

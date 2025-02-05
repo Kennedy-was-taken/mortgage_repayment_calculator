@@ -130,9 +130,14 @@
         font-size: 1.2vw;
         font-weight: 700;
     }
+
+    img{
+        width: 2vw;
+    }    
     
     .btnSubmit{
         padding: 1.3vh 0;
+        column-gap: 1vw;
         font-size: 1vw;
         border-top-left-radius: 6vw;
         border-bottom-left-radius: 6vw;

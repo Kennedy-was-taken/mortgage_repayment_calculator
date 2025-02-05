@@ -1,6 +1,6 @@
-![Process tab](https://img.shields.io/badge/status-in_progress-F14A00)
+<!-- ![Process tab](https://img.shields.io/badge/status-in_progress-F14A00) -->
 <!-- ![updates](https://img.shields.io/badge/future_updates-yes-4DA1A9) -->
-<!-- ![Process tab](https://img.shields.io/badge/status-Complete-5CB338) -->
+![Process tab](https://img.shields.io/badge/status-Complete-5CB338)
 <!-- ![updates](https://img.shields.io/badge/future_updates-no-8D0B41) -->
 
 # Frontend Mentor - Mortgage Repayment Calculator
@@ -34,48 +34,27 @@ Users should be able to:
 
 ### Screenshot
   
-   <!-- ![Full screen](./src/assets/content/preview.jpg) -->
+   ![Full screen](./src/app/assets/content/preview.jpg)
 
 
 #### Mobile perspective:
   - Mobile empty
 
-  ![mobile-home-page](./src/assets/content/mobile-design-empty.jpg)
+  ![mobile-home-page](./src/app/assets/content/mobile-design-empty.jpg)
 
   - Mobile completed
 
-  ![mobile-design-selected](./src/assets/content/mobile-design-completed.jpg)
+  ![mobile-design-selected](./src/app/assets/content/mobile-design-completed.jpg)
 
 
 #### Desktop perspective:
   - Desktop empty
 
-  ![desktop-home-page](./src/assets/content/desktop-design-empty.jpg)
+  ![desktop-home-page](./src/app/assets/content/desktop-design-empty.jpg)
 
   - Desktop completed
 
-  ![desktop-design-selected](./src/assets/content/desktop-design-completed.jpg)
-
-
-<!-- ### What I learned
-
-  1. Creating a Click Outside Directive in Angular:
-
-      - Implemented a click outside directive within Angular to facilitate the closing of modal windows, tooltips, or dropdown menus.
-      - Linked the directive to the HTML tag to ensure that clicking outside the designated area triggers the closing action.
-      - Ensured that clicking within the designated area keeps the component open.
-
-  2. Utilizing '@angular/animations' for Basic Animations:
-
-      - Learned to integrate '@angular/animations' to animate sidebar actions in TypeScript.
-      - Manipulated the opacity of a layer using triggers, states, transitions, and animations.
-      - Implemented animations for opening and closing actions, enhancing user experience and interface interactivity.
-
-  3. CSS Transformations and Animations:
-
-      - Refreshed understanding of CSS transformations for manipulating the positioning of HTML elements at various keyframes.
-      - Employed CSS animations to define animation properties, enabling keyframes to animate according to specified parameters.
-      - By mastering these techniques, I've enhanced my ability to create dynamic and interactive user interfaces within Angular applications. -->
+  ![desktop-design-selected](./src/app/assets/content/desktop-design-completed.jpg)
 
 ### Built with
 
@@ -91,7 +70,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub code solution URL](https://github.com/Kennedy-was-taken/mortgage_repayment_calculator.git)
-<!-- - Live site Url : [Vercel QR code app](https://mortgage-repayment-calculator-teal.vercel.app/) -->
+- Live site Url : [Vercel QR code app](https://mortgage-repayment-calculator-teal.vercel.app/)
 
 
 ## Author

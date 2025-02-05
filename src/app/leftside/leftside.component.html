@@ -58,17 +58,17 @@
         <!-- radio button -->
         <p class="headerText">Mortgage Type</p>
         <label class="inputContainer btnRadio top" >
-            <input class="inputStyle" name="radioOptions" checked type="radio" value="Replayment"/>
-            <span class="headerText" for="Replayment">Replayment</span>
+            <input class="inputStyle" id="Replayment" formControlName="radioBtn" type="radio" [value]="true"/>
+            <span class="headerText" for="radioBtn">Replayment</span>
         </label>
 
         <label class="inputContainer btnRadio bottom">
-            <input class="inputStyle" name="radioOptions" type="radio" value="Interest"/>
-            <span class="headerText" for="Interest">Interest Only</span>
+            <input class="inputStyle" id="Interest" formControlName="radioBtn" type="radio" [value]="false"/>
+            <span class="headerText" for="radioBtn">Interest Only</span>
         </label>
 
         <button class="btnSubmit" type="submit">
-            Calculate Repayments
+            <img src="./images/icon-calculator.svg" alt="calculator"/> Calculate Repayments
         </button>
 
     </form>
